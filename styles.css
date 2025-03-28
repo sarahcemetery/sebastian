@@ -1,0 +1,58 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #e0e0e0; /* Lighter background */
+    color: #333; /* Darker text for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #f5f5f5; /* Slightly lighter container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+#revealButton {
+    background-image: url('heart.png'); /* Heart PNG */
+    background-size: cover;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.reflection {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.ghost { background-color: #f0f0f0; color: #aaa; }
+.witch { background-color: #333; color: #ccc; }
+.doll { background-color: #fff0f5; color: #ffb6c1; }
+.lamb { background-color: #fff0f5; color: #b3b3b3; }
+.princess { background-color: #ffb6c1; color: #fffacd; }
+.sebastian { background-color: #b18467; color: #f0f0f0; } /* Brown Sebastian page */
+img {
+    max-width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.song {
+    font-style: italic;
+    margin-top: 10px;
+}
+.poem{
+  white-space: pre-line;
+}
+audio {
+  width: 200px;
+  margin-top: 10px;
+}

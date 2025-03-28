@@ -1,0 +1,42 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: 
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.reflection {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #444;
+}
+.ghost { background-color: #e8e8e8; color: #aaa; }
+.witch { background-color: #222233; color: #e0e0e0; }
+.doll { background-color: #664455; color: #f0e0e0; }
+.lamb { background-color: #f0f0f0; color: #333; }
+.bunny { background-color: #ffe4e1; color: black; }
+.deer { background-color: #b18467; color: #f0f0f0; }
+.princess { background-color: #ffb6c1; color: black; }
+.sebastian { background-color: #333; color: #f0f0f0; }
+img {
+    max-width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.song {
+    font-style: italic;
+    margin-top: 10px;
+}
+.poem{
+  white-space: pre-line;
+}
